@@ -1,0 +1,9 @@
+STM32CubeIDE/Debug/
+STM32CubeIDE/*.o
+STM32CubeIDE/*.d
+STM32CubeIDE/*.su
+STM32CubeIDE/*.cyclo
+EWARM/
+gcc/
+MDK-ARM/
+TouchGFX/build/
