@@ -4,6 +4,12 @@
 
 This project is a graphical user interface (GUI) developed for the STM32F412 microcontroller using TouchGFX and STM32CubeIDE. The GUI presents four different screens that demonstrate key functionalities including external image display, ADC measurements, and PWM signal control.
 
+ADC Mode of operation:
+The ADC coming from ADC1_IN1 is configured in continous DMA conversion mode, which once started DMA Conversions trough ```AdcDmaStart```, the ADC will convert continously and trigger an interrupt once the ADC has done ```ADC_SAMPLES_NUM``` of conversions. It will copy the measured data to a shadow buffer in order for the GUI to plot from the ```TouchGFX``` task and average out from the ```AdcAvgTask```. Measured range is from 0-3.3V.
+
+PWM Mode of operation:
+TIM5_CH1 is configred in PWM Generation mode at a fixed frequency of around 100KHz. From ```Screen4``` the user can configure the Duty Cycle %.
+
 
 <div align="center">
 
