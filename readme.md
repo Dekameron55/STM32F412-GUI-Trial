@@ -97,9 +97,6 @@ AVG value 1.670142 <CR>
 
 This project is provided as-is for demonstration and learning purposes.
 
----
-
-For any further modifications or enhancements, feel free to contribute!
 
 
 
