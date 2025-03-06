@@ -17,8 +17,9 @@ The system runs on FreeRTOS, with the main tasks being:
 
 - **Screen 1 - Welcome Screen**: The user is greeted with a welcome screen and can click a button to proceed.
 
-
-<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen1.jpg" width=20% height=20%>
+<div align="center">
+    <img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen1.jpg" width=20% height=20%>
+</div>
 
 - **Screen 2 - Image Display**: Demonstrates loading an external image ("Bubu and Dudu" as reference).
 
