@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.2">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="ResourceId5" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">ADC Data/ADC AVG  &lt;value&gt; V</Translation>
+      </Text>
+      <Text Id="ResourceId4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Bubu and Dudu !</Translation>
+      </Text>
+      <Text Id="ResourceId3" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Hello World !</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_NG3E" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_0K68" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">ADC AVG &lt;value&gt; V</Translation>
+      </Text>
+      <Text Id="__SingleUse_HLRI" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_GMSP" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Duty set % &lt;value&gt;        </Translation>
+      </Text>
+      <Text Id="__SingleUse_F1B5" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">PWM Duty %</Translation>
+      </Text>
+      <Text Id="__SingleUse_0BT3" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">3.3&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;0</Translation>
+      </Text>
+      <Text Id="__SingleUse_S8MC" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Hello World</Translation>
+      </Text>
+      <Text Id="__SingleUse_MGPQ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
