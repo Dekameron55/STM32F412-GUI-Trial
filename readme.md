@@ -4,6 +4,10 @@
 
 This project is a graphical user interface (GUI) developed for the STM32F412 microcontroller using TouchGFX and STM32CubeIDE. The GUI presents four different screens that demonstrate key functionalities including external image display, ADC measurements, and PWM signal control.
 
+
+![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/ADCMeas.jpg)
+
+
 The system runs on FreeRTOS, with the main tasks being:
 
 - `defaultTask`: Handles background operations.
@@ -12,17 +16,35 @@ The system runs on FreeRTOS, with the main tasks being:
 ## Features
 
 - **Screen 1 - Welcome Screen**: The user is greeted with a welcome screen and can click a button to proceed.
+![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen1.jpg)
+
 - **Screen 2 - Image Display**: Demonstrates loading an external image ("Bubu and Dudu" as reference).
+![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen2.jpg)
+
 - **Screen 3 - ADC Measurement Plot**:
   - The ADC (`hadc1`) samples 128 values (`ADC_SAMPLES_NUM = 128`) via DMA.
   - The measured samples are displayed on a real-time plot.
   - ADC input channel is configured on Pin A0 (PA1).
   - Displays ADC AVG (Averaged of 128 samples Value) in Volts.
+
+![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen3.jpg)
+
 - **Screen 4 - PWM Duty Cycle Control**:
   - The user can adjust a slider to set the PWM duty cycle.
   - The PWM signal is generated using `htim5, TIM_CHANNEL_1`.
   - Output is on Pin D5 (PF5).
   - The last set duty cycle is remembered.
+
+![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen4.jpg)
+
+On the screenshot below from the osciloscope (CH1) it can be seen a set Duty Cycle of ~35 % trough the slider.
+
+![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/PWM35p.png)
+
+Another example showcasing rought around 78%
+
+![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/PWMDC78p.png)
+
 - **UART Debugging**:
   - `printf` is rerouted to UART2 (PA2 TX, PA3 RX) for debugging.
   - Debug messages can be observed in a terminal.
