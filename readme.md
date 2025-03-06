@@ -39,7 +39,8 @@ The system runs on FreeRTOS, with the main tasks being:
 
 On the screenshot below from the osciloscope (CH1) it can be seen a set Duty Cycle of ~35 % trough the slider.
 
-![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/PWM35p.png)
+
+<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/PWM35p.png" width=50% height=50%>
 
 Another example showcasing rought around 78%
 
