@@ -5,8 +5,8 @@
 This project is a graphical user interface (GUI) developed for the STM32F412 microcontroller using TouchGFX and STM32CubeIDE. The GUI presents four different screens that demonstrate key functionalities including external image display, ADC measurements, and PWM signal control.
 
 
-![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/ADCMeas.jpg)
 
+<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/ADCMeas.jpg" width=50% height=50%>
 
 The system runs on FreeRTOS, with the main tasks being:
 
@@ -16,10 +16,14 @@ The system runs on FreeRTOS, with the main tasks being:
 ## Features
 
 - **Screen 1 - Welcome Screen**: The user is greeted with a welcome screen and can click a button to proceed.
-![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen1.jpg)
+
+
+<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen1.jpg" width=20% height=20%>
 
 - **Screen 2 - Image Display**: Demonstrates loading an external image ("Bubu and Dudu" as reference).
-![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen2.jpg)
+
+
+<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen2.jpg" width=20% height=20%>
 
 - **Screen 3 - ADC Measurement Plot**:
   - The ADC (`hadc1`) samples 128 values (`ADC_SAMPLES_NUM = 128`) via DMA.
@@ -27,7 +31,8 @@ The system runs on FreeRTOS, with the main tasks being:
   - ADC input channel is configured on Pin A0 (PA1).
   - Displays ADC AVG (Averaged of 128 samples Value) in Volts.
 
-![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen3.jpg)
+
+<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen3.jpg" width=20% height=20%>
 
 - **Screen 4 - PWM Duty Cycle Control**:
   - The user can adjust a slider to set the PWM duty cycle.
@@ -35,7 +40,8 @@ The system runs on FreeRTOS, with the main tasks being:
   - Output is on Pin D5 (PF5).
   - The last set duty cycle is remembered.
 
-![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen4.jpg)
+
+<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen4.jpg" width=20% height=20%>
 
 On the screenshot below from the osciloscope (CH1) it can be seen a set Duty Cycle of ~35 % trough the slider.
 
@@ -44,7 +50,7 @@ On the screenshot below from the osciloscope (CH1) it can be seen a set Duty Cyc
 
 Another example showcasing rought around 78%
 
-![Screenshot](https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/PWMDC78p.png)
+<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/PWMDC78p.png" width=50% height=50%>
 
 - **UART Debugging**:
   - `printf` is rerouted to UART2 (PA2 TX, PA3 RX) for debugging.
