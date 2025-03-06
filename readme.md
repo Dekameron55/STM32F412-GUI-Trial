@@ -5,8 +5,10 @@
 This project is a graphical user interface (GUI) developed for the STM32F412 microcontroller using TouchGFX and STM32CubeIDE. The GUI presents four different screens that demonstrate key functionalities including external image display, ADC measurements, and PWM signal control.
 
 
+<div align="center">
 
 <img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/ADCMeas.jpg" width=50% height=50%>
+</div>
 
 The system runs on FreeRTOS, with the main tasks being:
 
@@ -17,14 +19,12 @@ The system runs on FreeRTOS, with the main tasks being:
 
 - **Screen 1 - Welcome Screen**: The user is greeted with a welcome screen and can click a button to proceed.
 
-<div align="center">
-    <img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen1.jpg" width=20% height=20%>
-</div>
+    <img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen1.jpg" width=30% height=30%>
 
 - **Screen 2 - Image Display**: Demonstrates loading an external image ("Bubu and Dudu" as reference).
 
 
-<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen2.jpg" width=20% height=20%>
+<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen2.jpg" width=30% height=30%>
 
 - **Screen 3 - ADC Measurement Plot**:
   - The ADC (`hadc1`) samples 128 values (`ADC_SAMPLES_NUM = 128`) via DMA.
@@ -33,7 +33,7 @@ The system runs on FreeRTOS, with the main tasks being:
   - Displays ADC AVG (Averaged of 128 samples Value) in Volts.
 
 
-<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen3.jpg" width=20% height=20%>
+<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen3.jpg" width=30% height=30%>
 
 - **Screen 4 - PWM Duty Cycle Control**:
   - The user can adjust a slider to set the PWM duty cycle.
@@ -42,7 +42,7 @@ The system runs on FreeRTOS, with the main tasks being:
   - The last set duty cycle is remembered.
 
 
-<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen4.jpg" width=20% height=20%>
+<img src="https://github.com/Dekameron55/STM32F412-GUI-Trial/blob/main/images/Screen4.jpg" width=30% height=30%>
 
 On the screenshot below from the osciloscope (CH1) it can be seen a set Duty Cycle of ~35 % trough the slider.
 
